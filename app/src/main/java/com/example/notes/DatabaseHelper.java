@@ -1,4 +1,4 @@
-package com.example.dilyan;
+package com.example.notes;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

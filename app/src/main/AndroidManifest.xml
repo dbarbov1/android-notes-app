@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dilyan">
+    package="com.example.notes">
 
     <application
         android:allowBackup="true"
@@ -8,15 +8,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FirstApplication">
+        android:theme="@style/Theme.Notes">
         <activity
-            android:name=".ModifyNoteActivity"
+            android:name="com.example.notes.ModifyNoteActivity"
             android:exported="false" />
         <activity
-            android:name=".AddNotesActivity"
+            android:name="com.example.notes.AddNotesActivity"
             android:exported="false" />
         <activity
-            android:name=".NotesListActivity"
+            android:name="com.example.notes.NotesListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

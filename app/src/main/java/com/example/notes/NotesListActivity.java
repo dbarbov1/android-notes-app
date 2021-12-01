@@ -1,4 +1,4 @@
-package com.example.dilyan;
+package com.example.notes;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,7 +22,7 @@ public class NotesListActivity extends AppCompatActivity {
 
     final String[] from = new String[]{DatabaseHelper._ID, DatabaseHelper.SUBJECT, DatabaseHelper.NOTE};
 
-    final int[] to = new int[]{R.id.id, R.id.title, R.id.note};
+    final int[] to = new int[]{R.id.id, R.id.subject, R.id.note};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

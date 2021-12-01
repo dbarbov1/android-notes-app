@@ -1,4 +1,4 @@
-package com.example.dilyan;
+package com.example.notes;
 
 import org.junit.Test;
 
